@@ -79,13 +79,13 @@ header{
     console.log('Declare event listeners .......................')
 
     document.getElementById('clicker').addEventListener('click', function () {
-      const s = document.getElementById('userName').value
+      const inputName = document.getElementById('userName').value
 
-      const ans=s.length;
+      const lengthOfName=inputName.length;
 
 
 
-      document.getElementById('result').innerHTML = "Length of Your Name is: "+ans
+      document.getElementById('result').innerHTML = "Length of Your Name is: "+lengthOfName
 
 
 
